@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "beeviewer",
+  "name": "Bee Viewer",
+  "version": "${version}",
+
+  "description": "Adds Bee count tooltip to Beehives and Bee Nests.",
+  "authors": [
+    "marvhus"
+  ],
+  "contact": {
+    "issues": "https://github.com/marvhus/beeviewer/issues",
+    "sources": "https://github.com/marvhus/beeviewer"
+  },
+
+  "license": "GPL-3.0",
+  "icon": "assets/beeviewer/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "xyz.marvhus.beeviewer.BeeViewerClient"
+    ]
+  },
+
+  "mixins": [
+    "beeviewer.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}

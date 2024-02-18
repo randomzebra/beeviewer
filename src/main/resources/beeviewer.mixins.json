@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xyz.marvhus.beeviewer.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "MixinBeehiveBlock"
+  ],
+  "mixinPriority": 999,
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
