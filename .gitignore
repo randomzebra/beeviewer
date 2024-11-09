@@ -5,6 +5,8 @@
 *.iml
 *.ipr
 *.iws
+.vscode/
+bin/
 
 # IntelliJ
 out/
@@ -100,7 +102,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-
+gradlew*
 .gradle
 build/
 
